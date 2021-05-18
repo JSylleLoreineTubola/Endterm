@@ -16,9 +16,7 @@ public abstract class Account {
 			balance = accountbalance;
 		}
 		
-		public abstract int getAccountNumber();
 		public abstract double getBalance();
-		
-		// Added this because it makes sense with my current application design
+		public abstract int getAccountNumber();
 		public abstract String getAccountInfo();
 	}
