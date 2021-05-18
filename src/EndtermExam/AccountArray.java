@@ -17,7 +17,8 @@ public static void main(String[] args)
 	accountArray[8] = new Savings (5634, 1.9);
 	accountArray[9] = new Savings (8734, 3.1);
 	
-	for(int i = 0; i < accountArray.length; ++i)
+	for(int i = 0; i < accountArray.length; i++)
+		
 		System.out.println(accountArray[i].getAccountInfo() + "\n");
 }
 }
